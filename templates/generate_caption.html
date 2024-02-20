@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AUTOCAP</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-teal-200 font-['Plus_Jakarta_Sans'] overflow-hidden">
+
+<nav class="flex justify-between items-center py-4 px-6 text-center">
+    <div class="text-black font-bold text-xl">
+        <a href="/" class="flex items-center">
+            <span class="text-red-500">/</span> AUTOCAP
+        </a>
+    </div>
+
+    <div class="nav-links hidden sm:flex space-x-20">
+        <a href="/" class="text-black mx-2">Home</a>
+        <a href="generate_caption.html" class="text-black mx-2">Generate Caption</a>
+        <a href="#" class="text-black mx-2">About Us</a>
+    </div>
+
+    <div class="nav-links hidden sm:flex space-x-5">
+        <a href="#" class="text-black mx-2">Login</a>
+        <a href="#" class="text-black mx-2">SignUp</a>
+    </div>
+</nav>
+
+<main class="flex justify-center items-center h-screen px-4 bg-teal-200">
+    <div class="container mx-auto flex flex-wrap justify-center items-center">
+        <div class="flex flex-col lg:flex-row items-stretch justify-center w-full lg:divide-x lg:divide-gray-400">
+            <div class="w-full lg:w-1/2 p-10 mb-10 lg:mb-0">
+                <div class="border-4 border-dashed border-gray-300 rounded-lg p-14 min-h-[30rem] text-center flex flex-col justify-between">
+                    <div>
+                        <svg class="w-16 h-16 text-gray-400 mb-6" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+                            <path d="M7 4V21H17V4L12 7.5L7 4z"></path>
+                        </svg>
+                        <p class="text-gray-500 text-lg mb-4">Select a file or drag and drop here</p>
+                        <p class="text-gray-500 mb-4">JPG, PNG or PDF, file size no more than 10MB</p>
+                    </div>
+                    <button class="bg-green-500 text-white px-8 py-3 rounded text-lg">UPLOAD FILE</button>
+                </div>
+            </div>
+
+            <div class="w-full lg:w-1/2 p-10">
+                <div class="min-h-[30rem] flex flex-col justify-between">
+                    <div class="flex flex-col space-y-6">
+                        <p class="text-gray-700 text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                        <p class="text-gray-700 text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                        <p class="text-gray-700 text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                        <p class="text-gray-700 text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                        <p class="text-gray-700 text-lg">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        </p>
+                    </div>
+                    <button class="bg-black text-white px-8 py-3 rounded text-lg">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+</html>
